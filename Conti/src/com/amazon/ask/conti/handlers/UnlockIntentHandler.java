@@ -20,6 +20,11 @@ import com.amazon.ask.request.Predicates;
 public class UnlockIntentHandler implements RequestHandler {
 
 	private static String coGrade;
+	
+	private static String clientID = "";
+	private static String securedCode = "";
+	private static String sessionID = "";
+	
 	@Override
 	public boolean canHandle(HandlerInput input) {
 		// TODO Auto-generated method stub
