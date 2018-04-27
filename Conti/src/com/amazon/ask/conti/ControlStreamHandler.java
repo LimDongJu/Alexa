@@ -21,7 +21,7 @@ public class ControlStreamHandler extends SkillStreamHandler {
 						, new LaunchRequestHandler()
 						, new LockIntentHandler()
 						, new OnHazardIntentHandler()
-						, new OnHonkIntentHandler()															
+						, new OnHonkIntentHandler()						
 						, new SessionEndedRequestHandler()
 						, new UnlockIntentHandler())
 				.build();
