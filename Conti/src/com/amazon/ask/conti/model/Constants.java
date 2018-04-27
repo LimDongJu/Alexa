@@ -22,12 +22,12 @@ public class Constants {
 	public static String LOCK_HELP_MESSAGE = "You can say lock the door, please again";
 	
 	//HAZARD
-	public static String HAZARD_MESSAGE = "Ok, Hazard";
+	public static String HAZARD_MESSAGE = "Ok, I'm trying to turn on the hazard-light";
 	
 	public static String HAZARD_HELP_MESSAGE = "You can say turn on the hazard light";
 	
 	//HORN
-	public static String HORN_MESSAGE = "Ok, Horn";
+	public static String HORN_MESSAGE = "Ok, I'm trying to honk the horn";
 	
 	public static String HORN_HELP_MESSAGE = "You can say honk the horn";
 
