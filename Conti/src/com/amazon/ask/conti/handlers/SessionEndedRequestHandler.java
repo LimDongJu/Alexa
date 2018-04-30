@@ -22,7 +22,8 @@ public class SessionEndedRequestHandler implements RequestHandler{
      @Override
      public Optional<Response> handle(HandlerInput input) {
     	 SessionEndedRequest sessionEndedRequest = (SessionEndedRequest) input.getRequestEnvelope().getRequest();
-    	 //LOG.debug("Session ended with reason:" + sessionEndedRequest.getReason().toString());        
+    	 //LOG.debug("Session ended with reason:" + sessionEndedRequest.getReason().toString());
+        
          return Optional.empty();
      }
 }
