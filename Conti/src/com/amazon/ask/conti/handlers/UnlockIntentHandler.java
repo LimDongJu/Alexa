@@ -75,15 +75,15 @@ public class UnlockIntentHandler implements RequestHandler {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return input.getResponseBuilder().withSpeech(Constants.UNLOCK_MESSAGE + coGrade)
+		return input.getResponseBuilder().withSpeech(Constants.UNLOCK_MESSAGE)
 				.withReprompt(Constants.UNLOCK_HELP_MESSAGE)
 				// .withSimpleCard("HelloWorld", speechText)
 				.build();
 	}
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 
-/*		String ClientId = "client_id"; // 아이디
+		String ClientId = "client_id"; // 아이디
 		String ClientSecret = "client_secret"; // 패스워드
 
 		String url = "http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?stationName=종로구&dataTerm=month&pageNo=1&numOfRows=10&ServiceKey=ASdKuVjkdysrEL8dzvNt42La%2FIK4CMBpvstNs8dpPBmiQbMve3j1ArFm%2BlbpHvLP4xRjX6aZqAcz3JPw7O8V5w%3D%3D&ver=1.3&_returnType=json";
@@ -129,9 +129,8 @@ public class UnlockIntentHandler implements RequestHandler {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}*/
-
-	}
+		}
+	}*/
 }
 
 /*

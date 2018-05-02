@@ -2,6 +2,7 @@ package com.amazon.ask.conti.handlers;
 
 import java.util.Optional;
 
+import com.amazon.ask.conti.model.Constants;
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
 import com.amazon.ask.model.Response;
@@ -16,11 +17,10 @@ public class HelpIntentHandler implements RequestHandler{
 
      @Override
      public Optional<Response> handle(HandlerInput input) {
-         String speechText = "You can say hello to me!";
+         String speechText = Constants.HELP_MESSAGE;
          return input.getResponseBuilder()
-                 .withSpeech(speechText)
-                 .withSimpleCard("HelloWorld", speechText)
-                 .withReprompt(speechText)
+                 .withSpeech(Constants.HELP_MESSAGE)            
+                 .withReprompt(Constants.HELP_MESSAGE)
                  .build();
      }
 }
